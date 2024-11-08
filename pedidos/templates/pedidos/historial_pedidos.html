@@ -1,0 +1,6 @@
+<h1>Historial de Pedidos</h1>
+<ul>
+    {% for pedido in pedidos %}
+        <li>Pedido #{{ pedido.id }} - Estado: {{ pedido.estado }}</li>
+    {% endfor %}
+</ul>
